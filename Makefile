@@ -1,9 +1,9 @@
-JCulc : y.tab.c y.tab.h lex.yy.c
-	cc y.tab.c -ly -ll -o JCulc
+JCalc : y.tab.c y.tab.h lex.yy.c
+	cc y.tab.c -ly -ll -o JCalc
 
-y.tab.h : JCulc.y
-	yacc -d JCulc.y
+y.tab.h : JCalc.y
+	yacc -d JCalc.y
 
-lex.yy.c : JCulc.l
-	lex JCulc.l
+lex.yy.c : JCalc.l
+	lex JCalc.l
 
