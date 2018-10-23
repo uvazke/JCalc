@@ -8,7 +8,7 @@ Just a Calculator
   
 It is a calculator using yacc/lex
 
-Please make under the top dirctory to compile Jcalc
+Please run ```make``` under the top dirctory to compile Jcalc
 
 ## Reference
 
