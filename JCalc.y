@@ -17,7 +17,6 @@ list
 		fprintf(stderr, "Please input 'quit' to finish the program.\n");
 	}
 	| list NL
-	| HOW_MANY_LINE NL
 	| list HOW_MANY_LINE NL
 
 	;
